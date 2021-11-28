@@ -1,0 +1,30 @@
+.About {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2%;
+}
+
+.About figcaption {
+  padding: 2%;
+}
+
+.About p {
+  margin-left: 2%;
+}
+
+.About img {
+  min-width: 40%;
+  object-fit: cover;
+  height: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .About {
+    flex-direction: column;
+  }
+
+  .About img {
+    height: 70vh;
+  }
+}

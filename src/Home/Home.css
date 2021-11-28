@@ -1,0 +1,88 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+.Cont {
+  height: 80%;
+  overflow: hidden;
+}
+
+.background {
+  min-height: 90%;
+  background-image: url("https://wallpaperaccess.com/full/885014.jpg");
+  background-position: center;
+  /* background-size: cover; */
+  /* background-clip: padding-box; */
+  border: 0 solid white;
+}
+
+.background img {
+  object-fit: contain;
+}
+
+.coms {
+  max-height: 10%;
+}
+
+.coms h2 {
+  display: inline-block;
+}
+
+/* .Cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background {
+  display: flex;
+  width: 100%;
+  height: 92vh;
+  background-position: center;
+  overflow: hidden;
+}
+
+.background img {
+  object-fit: cover;
+}
+
+.coms {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.link {
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+  color: rgb(233, 163, 153);
+  cursor: pointer;
+}
+
+address {
+  font-size: smaller;
+  color: rgb(150, 150, 150);
+  padding: 1%;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    overflow-y: scroll;
+  }
+
+  .background {
+      height: 85vh;
+  }
+
+  .coms {
+      width: 40%;
+  }
+
+  .link {
+      font-size: 1.5em;
+  }
+} */

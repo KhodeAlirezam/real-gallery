@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.Header {
+  text-align: center;
+  box-shadow: 0px 3px 5px rgb(150, 150, 150);
+  min-height: 20%;
+}
+
+.Nav-Links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3vh 0;
+  text-align: left;
+}
+
+.Logo {
+  color: rgb(150, 150, 150);
+  font-size: 200%;
+  white-space: nowrap;
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.Logo:hover {
+  color: rgb(233, 163, 153);
+}
+
+.Nav-Links li {
+  list-style: none;
+}
+
+.Nav-Link {
+  color: rgb(150, 150, 150);
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.Nav-Link:hover {
+  color: rgb(233, 163, 153);
+}
+
+.Nav-Link.active {
+  color: rgb(233, 163, 153);
+  list-style: none;
+}
+
+@media screen and (max-width: 700px) {
+  .Nav-Links {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    padding: 0 0;
+  }
+
+  .Nav-Links li {
+    padding: 2% 0;
+  }
+
+  .Nav-Links li:not(:last-child) {
+    border-bottom: 1px solid black;
+  }
+}

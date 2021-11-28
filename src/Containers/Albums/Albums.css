@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter {
+  padding: 3%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-button {
+  background-color: white;
+  border-color: rgb(233, 163, 153);
+  border: 1;
+  border-style: solid;
+  border-radius: 5px;
+  width: 30%;
+  height: 30px;
+  color: rgb(150, 150, 150);
+  cursor: pointer;
+}
+
+.f-button:hover {
+  background-color: rgb(233, 163, 153);
+  color: white;
+}
+
+.f-button:focus {
+  background-color: rgb(233, 163, 153);
+  color: white;
+}
